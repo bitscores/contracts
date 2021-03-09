@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/math/SafeMath.sol";
 
-contract bitsfFactory is ERC20("bitsfFactory", "bitsfWETH"), Ownable {
+contract bsFactory is ERC20("bsFactory", "bsRENBTC"), Ownable {
     using SafeMath for uint256;
     IERC20 public token;
 
